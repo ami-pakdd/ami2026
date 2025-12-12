@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;          /* CTU dùng nền trắng */
+  --foreground: #1f5ca9;          /* chữ xanh CTU */
+  --accent: #00afef;              /* cyan CTU */
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-ctu-blue: #1f5ca9;
+  --color-ctu-cyan: #00afef;
+
+  --font-sans: var(--font-k2d);
+  --font-display: var(--font-readex);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-k2d), sans-serif;
+}
