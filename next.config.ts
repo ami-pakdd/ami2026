@@ -5,6 +5,7 @@ const nextConfig: NextConfig = {
   reactCompiler: true,
   output: "export",
   basePath: "/ami2026",
+  assetPrefix: '/ami2026/',
 };
 
 export default nextConfig;

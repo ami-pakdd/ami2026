@@ -1,2 +1,0 @@
-:HL["/ami2026/_next/static/chunks/f298c3b50e19f3ae.css","style"]
-0:{"buildId":"UKQsjkeFemDs_ZZKcAUob","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"/_not-found","paramType":null,"paramKey":"/_not-found","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}

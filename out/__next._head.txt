@@ -1,8 +1,0 @@
-1:"$Sreact.fragment"
-2:I[97367,["/ami2026/_next/static/chunks/42879de7b8087bc9.js"],"ViewportBoundary"]
-4:I[97367,["/ami2026/_next/static/chunks/42879de7b8087bc9.js"],"MetadataBoundary"]
-5:"$Sreact.suspense"
-7:I[27201,["/ami2026/_next/static/chunks/42879de7b8087bc9.js"],"IconMark"]
-0:{"buildId":"UKQsjkeFemDs_ZZKcAUob","rsc":["$","$1","h",{"children":[null,["$","$L2",null,{"children":"$@3"}],["$","div",null,{"hidden":true,"children":["$","$L4",null,{"children":["$","$5",null,{"name":"Next.Metadata","children":"$@6"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"loading":null,"isPartial":false}
-3:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
-6:[["$","title","0",{"children":"AMI-PAKDD 2026"}],["$","meta","1",{"name":"description","content":"Workshop on Autonomous Machine Intelligence"}],["$","link","2",{"rel":"icon","href":"/ami2026/favicon.ico?favicon.cadd2e46.ico","sizes":"48x48","type":"image/x-icon"}],["$","$L7","3",{}]]
