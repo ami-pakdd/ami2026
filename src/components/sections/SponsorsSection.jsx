@@ -15,9 +15,24 @@ export default function SponsorsSection() {
     ],
     partner: [
       {
-        name: "College of Information and Communication Technology",
-        url: "https://cit.ctu.edu.vn/",
+        name: "Can Tho University",
+        url: "https://www.ctu.edu.vn/",
         logo: "CTU_logo.png",
+      },
+      {
+        name: "Nantes Université",
+        url: "https://www.univ-nantes.fr/nantes-universite-accueil",
+        logo: "Logotype_Nantes-U_noir-72dpi.png",
+      },
+      {
+        name: "VNU-HCM University of Technology",
+        url: "https://hcmut.edu.vn/en",
+        logo: "01_logobachkhoasang.png",
+      },
+      {
+        name: "VNU International School",
+        url: "https://www.is.vnu.edu.vn/en/",
+        logo: "VNU_IS_logo.png",
       }
     ],
     diamond: [

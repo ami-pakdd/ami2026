@@ -1,31 +1,35 @@
 export default function OrganizersSection() {
   const organizers = [
     {
-      initials: 'HXH',
+      avatar: 'hxhiep_avt.jpg',
       name: 'Prof. Hiep Xuan Huynh',
       degree: 'Ph.D. (HDR)',
       affiliation: 'Can Tho University, Vietnam',
       email: 'hxhiep@ctu.edu.vn',
     },
     {
-      initials: 'FG',
+      avatar: 'FG',
       name: 'Prof. Fabrice Guillet',
       degree: 'Ph.D. (HDR)',
       affiliation: 'Nantes University, France',
     },
     {
-      initials: 'AHP',
+      avatar: 'AHP',
       name: 'A/Prof. Anh Hoang Pham',
       degree: 'Ph.D.',
       affiliation: 'VNU-HCM University of Technology, Vietnam',
     },
     {
-      initials: 'NTT',
+      avatar: 'NTT',
       name: 'A/Prof. Ngan Thi Tran',
       degree: 'Ph.D.',
       affiliation: 'VNU International School, Vietnam',
     },
   ];
+
+  const isImage = (value) => {
+    return /\.(jpg|jpeg|png|webp|gif)$/i.test(value);
+  };
 
   return (
     <section id="organizers" className="mb-20 scroll-mt-24">
@@ -50,9 +54,18 @@ export default function OrganizersSection() {
                 bg-gradient-to-br from-ctu-blue to-ctu-cyan
                 flex items-center justify-center
                 text-white text-xl font-bold
+                overflow-hidden
               "
             >
-              {org.initials}
+              {isImage(org.avatar) ? (
+                <img
+                  src={`${org.avatar}`}
+                  alt={org.name}
+                  className="w-full h-full object-cover"
+                />
+              ) : (
+                <span>{org.avatar}</span>
+              )}
             </div>
 
             {/* Name */}
