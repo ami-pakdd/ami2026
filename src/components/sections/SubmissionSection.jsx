@@ -103,21 +103,21 @@ export default function SubmissionSection() {
         </>
       ),
     },
-    {
-      title: "Camera-Ready Instructions",
-      content: (
-        <>
-          Final accepted papers must follow the camera-ready guidelines provided by PAKDD 2026:{" "}
-          <a
-            href="https://pakdd2026.org/camera-ready/workshop"
-            target="_blank"
-            className="text-ctu-blue hover:text-ctu-cyan"
-          >
-            https://pakdd2026.org/camera-ready/workshop
-          </a>
-        </>
-      ),
-    },
+    // {
+    //   title: "Camera-Ready Instructions",
+    //   content: (
+    //     <>
+    //       Final accepted papers must follow the camera-ready guidelines provided by PAKDD 2026:{" "}
+    //       <a
+    //         href="https://pakdd2026.org/camera-ready/workshop"
+    //         target="_blank"
+    //         className="text-ctu-blue hover:text-ctu-cyan"
+    //       >
+    //         https://pakdd2026.org/camera-ready/workshop
+    //       </a>
+    //     </>
+    //   ),
+    // },
   ];
 
   return (

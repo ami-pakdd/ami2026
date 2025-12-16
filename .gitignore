@@ -1,0 +1,15 @@
+# dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# production build
+build/
+
+# environment variables
+.env
+
+# IDE / Editor
+.vscode/
