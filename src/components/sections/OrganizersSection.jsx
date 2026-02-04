@@ -14,13 +14,13 @@ export default function OrganizersSection() {
       affiliation: 'Nantes University, France',
     },
     {
-      avatar: 'AHP',
+      avatar: 'anhpham_avt.jpg',
       name: 'A/Prof. Anh Hoang Pham',
       degree: 'Ph.D.',
       affiliation: 'VNU-HCM University of Technology, Vietnam',
     },
     {
-      avatar: 'NTT',
+      avatar: 'ngantt_avt.jpg',
       name: 'A/Prof. Ngan Thi Tran',
       degree: 'Ph.D.',
       affiliation: 'VNU International School, Vietnam',
