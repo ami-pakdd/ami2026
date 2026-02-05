@@ -8,7 +8,7 @@ export default function OrganizersSection() {
       email: 'hxhiep@ctu.edu.vn',
     },
     {
-      avatar: 'FG',
+      avatar: 'FG-2009.bis.jpg',
       name: 'Prof. Fabrice Guillet',
       degree: 'Ph.D. (HDR)',
       affiliation: 'Nantes University, France',
