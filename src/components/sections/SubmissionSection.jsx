@@ -1,7 +1,7 @@
 import PAKDD2026Block from "@/components/PAKDD2026Block";
 
 export default function SubmissionSection() {
-  const SUBMISSION_LINK = "https://cmt3.research.microsoft.com/AMI2026";
+  const SUBMISSION_LINK = "https://cmt3.research.microsoft.com/AMIPAKDD2026";
 
   const sections = [
     {
